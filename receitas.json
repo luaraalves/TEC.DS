@@ -1,1 +1,42 @@
-
+{
+id: "1",
+nome: "bolo de chocolate,
+img: "bolo_de_chocolate.jpg",
+ingredientes:{
+"Massa":[
+"1 xícara e meia (chá) de leite",
+"1 colher (sopa) de suco de limão",
+"1 xícara de (chá) de manteiga sem sal em temperatura ambiente",
+"1 xícara e meia de (chá) de açucar",
+"3 ovos",
+"1 colher (sopa) de essência de baunilha",
+"1 xícara e meia (chá) de farinha de trigo",
+"1 colher (sopa) de Chocolate em Pó 50%",
+"1 colher e meia (sopa) de fermento em pó",
+"
+],
+"Cobertura":[
+"1 caixa de leite condensado (395 gramas)",
+"1 colher de sopa de manteiga sem sal (14 gramas)",
+"4 colheres de sopa de chocolate em pó (ou 7 colheres de sopa de achocolatado)",
+"1/2 caixinha de creme de leite (100 gramas)"
+]
+},
+utensilios: ["Fouet","Tigela grande","Xícara","Colher de sopa","Forma","Panela","Ralador","Forno"],
+passos:{
+"Massa":[
+"1° Higienize, descasque e corte as cenouras em rodelas. Preaqueça o forno a 180 ºC.",
+"2° Peneire a farinha, adicione o sal e o fermento. Misture bem.",
+"3° No liquidificador, bata cenoura, óleo, ovos e açúcar por 5 minutos.",
+"4° Misture com os ingredientes secos delicadamente.",
+"5° Despeje na forma untada e asse por 45 a 50 minutos."
+],
+"Cobertura":[
+"1° Prepare a calda enquanto o bolo esfria.",
+"2° Misture leite condensado, manteiga e chocolate.",
+"3° Cozinhe até ponto de brigadeiro e adicione creme de leite.",
+"4° Despeje sobre o bolo morno."
+]
+},
+videoUrl: 'https://raw.githubusercontent.com/jerog1971/projeto-mobile/main/videos/chocolate.mp4'
+},
