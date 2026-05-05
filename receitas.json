@@ -1,5 +1,5 @@
 [
-{
+  {
 "id": "1",
 "nome": "bolo de chocolate",
 "img": "bolo_de_chocolate.jpg",
@@ -24,7 +24,7 @@
 ]
 },
 "utensilios": ["Fouet","Tigela grande","Xícara","Colher de sopa","Forma","Forno"],
-passos:{
+"passos":{
 "Massa":[
 "1° Em um recipiente, misture o Leite NINHO com o suco de limão. Reserve até talhar.",
 "2° Em uma batedeira, bata a manteiga com o açúcar até obter uma mistura esbranquiçada.",
@@ -44,7 +44,7 @@ passos:{
 ]
 },
 "videoUrl": "https://raw.githubusercontent.com/jerog1971/projeto-mobile/main/videos/chocolate.mp4",
-},
+  },
 {
 "id": "6",
 "nome": "bolo red velvet",
@@ -70,7 +70,7 @@ passos:{
 ]
 },
 "utensilios": ["Batedeira","Tigela grande","Xícara","Colher de sopa","Forma","Panela","Ralador","Forno", "Geladeira"],
-passos:{
+"passos":{
 "Massa":[
 "1° Em um recipiente, misture o Leite NINHO com o suco de limão. Reserve até talhar.",
 "2° Em uma batedeira, bata a manteiga com o açúcar até obter uma mistura esbranquiçada.",
@@ -90,4 +90,5 @@ passos:{
 ]
 },
 "videoUrl": "https://raw.githubusercontent.com/jerog1971/projeto-mobile/main/videos/chocolate.mp4"
+}
 ]
