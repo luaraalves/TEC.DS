@@ -6,6 +6,8 @@ const IMAGENS_LOCAIS = {
 'bolo_de_suspiro_com_morango.jpg': require('./img/bolo_de_suspiro_com_morango.jpg'),
 'bolo_de_ninho.jpg': require('./img/bolo_de_ninho.jpg'),
 'bolo_de_maracuja.jpg': require('./img/bolo_de_maracuja.jpg'),
+'bolo_red_velvet.jpg' : require('./img/bolo_red_velvet.jpg'),
+'bolo_de_chocolate.jpg' : require('./img/bolo_de_chocolate.jpg')
 };
 
 const RECEITAS_INICIAIS = [
@@ -48,7 +50,7 @@ passos:{
 "4° Despeje sobre o bolo morno."
 ]
 },
-videoUrl: 'https://raw.githubusercontent.com/jerog1971/projeto-mobile/main/videos/chocolate.mp4'
+videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/chocolate.mp4?raw=true'
 },
 
 {
@@ -90,7 +92,7 @@ passos:{
 "5° Cubra e finalize."
 ]
 },
-videoUrl: 'https://raw.githubusercontent.com/jerog1971/projeto-mobile/main/videos/fuba.mp4'
+videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/fuba.mp4?raw=true'
 },
 
 {
@@ -128,7 +130,7 @@ passos:{
 "3° Cubra o bolo."
 ]
 },
-videoUrl: 'https://raw.githubusercontent.com/jerog1971/projeto-mobile/main/videos/cenoura.mp4'
+videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/cenoura.mp4?raw=true'
 },
 
 {
@@ -164,7 +166,7 @@ passos:{
 "3° Cubra o bolo frio."
 ]
 },
-videoUrl: 'https://raw.githubusercontent.com/jerog1971/projeto-mobile/main/videos/laranja.mp4'
+videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/laranja.mp4?raw=true'
 }
 
 ];
@@ -176,7 +178,7 @@ const [carregando, setCarregando] = useState(false);
 const sincronizarReceitas = async () => {
 setCarregando(true);
 try {
-const response = await fetch('https://raw.githubusercontent.com/jerog1971/projeto-mobile/refs/heads/main/receitas.json');
+const response = await fetch('https://raw.githubusercontent.com/luaraalves/TEC.DS/refs/heads/main/receitas.json');
 const receitasDoServidor = await response.json();
 const novas = receitasDoServidor.filter(resServidor => !receitas.some(resLocal => resLocal.id === resServidor.id));
 
