@@ -92,7 +92,7 @@ passos:{
 "5° Cubra e finalize."
 ]
 },
-videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/fuba.mp4?raw=true'
+videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/morango.mp4?raw=true'
 },
 
 {
@@ -130,7 +130,7 @@ passos:{
 "3° Cubra o bolo."
 ]
 },
-videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/cenoura.mp4?raw=true'
+videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/ninho.mp4?raw=true'
 },
 
 {
@@ -166,7 +166,7 @@ passos:{
 "3° Cubra o bolo frio."
 ]
 },
-videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/laranja.mp4?raw=true'
+videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/maracuja.mp4?raw=true'
 }
 
 ];
