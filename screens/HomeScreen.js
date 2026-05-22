@@ -50,7 +50,7 @@ passos:{
 "4° Despeje sobre o bolo morno."
 ]
 },
-videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/chocolate.mp4?raw=true'
+videoUrl: 'https://raw.githubusercontent.com/luaraalves/TEC.DS/main/videos/cenoura.mp4?raw=true'
 },
 
 {
